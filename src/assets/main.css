@@ -4,7 +4,7 @@ body {
 }
 
 h1{
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .choices {
@@ -26,10 +26,10 @@ button {
 .indent{ padding-left: 90px }
 
 .choice-image {
-  width: 200px; 
-  height: 200px; 
+  width: 300px; 
+  height: 300px; 
 }
 
 p{
-  font-size: 16px;
+  font-size: 20px;
 }
