@@ -1,4 +1,5 @@
 <template>
+  <div class="cotainer"></div>
   <h1>เกมเป่ายิ่งฉุบ</h1>
     <div>
       <img :src="playerChoiceImg" class="choice-image" alt="รูปผู้เล่น">

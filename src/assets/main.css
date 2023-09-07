@@ -14,7 +14,7 @@ h1{
 }
 
 button {
-  font-size: 14px;
+  font-size: 20px;
   padding: 10px 20px;
 }
 
@@ -26,10 +26,15 @@ button {
 .indent{ padding-left: 90px }
 
 .choice-image {
-  width: 300px; 
-  height: 300px; 
+  width: 350px; 
+  height: 350px; 
 }
 
 p{
-  font-size: 20px;
+  font-size: 24px;
+}
+
+.container{
+  display: grid;
+  place-items: center;
 }
