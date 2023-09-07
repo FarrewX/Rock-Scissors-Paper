@@ -27,16 +27,16 @@ export default {
         result: '',
         playerScore: 0,
         botScore: 0,
-        playerChoiceImg: 'src/images/default.png', // รูปเริ่มต้นของผู้เล่น
-        botChoiceImg: 'src/images/default.png', // รูปเริ่มต้นของบอท
+        playerChoiceImg: 'images/default.png', // รูปเริ่มต้นของผู้เล่น
+        botChoiceImg: 'images/default.png', // รูปเริ่มต้นของบอท
       };
     },
     methods: {
         play(playerChoice) {
             const botChoice = this.choices[Math.floor(Math.random() * 4)];
             this.showResult(playerChoice, botChoice);
-            this.playerChoiceImg = `src/images/${playerChoice}.png`; // เปลี่ยนรูปผู้เล่น
-            this.botChoiceImg = `src/images/${botChoice}.png`; // เปลี่ยนรูปบอท
+            this.playerChoiceImg = `images/${playerChoice}.png`; // เปลี่ยนรูปผู้เล่น
+            this.botChoiceImg = `images/${botChoice}.png`; // เปลี่ยนรูปบอท
         },//public/images
         showResult(playerChoice, botChoice) {
             if (playerChoice === botChoice) {
